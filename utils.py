@@ -20,6 +20,7 @@ def prediction(image):
     result = np.argmax(result[0])
     return int(result)
 
+# Trabajar en transformar esto con una b.d.
 def place_data(id):
     if(id==0):
         return { 'ID': 1, 'Resultado': 'Montaña'}
